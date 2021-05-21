@@ -6,6 +6,8 @@ import play.Logger;
 import play.mvc.Controller;
 import utils.LatestWeather;
 
+import javax.persistence.EntityManager;
+
 public class StationCtrl extends Controller {
 
     public static void index(Long id) {
@@ -24,12 +26,26 @@ public class StationCtrl extends Controller {
         User user = new Account().getLoggedInUser();
         Station station = new Station(name, latitude, longitude);
 
-        Logger.info ("Adding a new Station called " + name + " for User: " + user.email);
-        Logger.info("This station is located at:\nLAT: " + latitude + "\nLNG: " + longitude);
+        Logger.info("Adding a new Station called " + name + " for User: " + user.email);
+        Logger.info("This station is located at:\n\t\tLAT: " + latitude + "\n\t\tLNG: " + longitude);
 
         user.stations.add(station);
         user.save();
 
         redirect ("/dashboard");
+    }
+
+    public static void deleteStation(Long id) {
+
+        User user = new Account().getLoggedInUser();
+        Station station = Station.findById(id);
+
+        Logger.info("Deleting Station " + station.name + " from User: " + user.email);
+
+        user.stations.remove(station);
+        user.save();
+        station.delete();
+
+        Dashboard.index();
     }
 }

@@ -1,16 +1,21 @@
-<table class="ui fixed table">
+<table class="ui celled padded table">
   <thead>
-    <tr>
+    <tr class="ui center aligned">
+      <th>Date & Time of Reading</th>
       <th>Station Code</th>
       <th>Temperature</th>
       <th>Wind Speed</th>
       <th>Wind Direction</th>
       <th>Pressure</th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
     #{list items:_station.readings, as:'reading'}
-      <tr>
+      <tr class="ui center aligned">
+        <td>
+          ${reading.date}
+        </td>
         <td>
           ${reading.code}
         </td>
@@ -25,6 +30,13 @@
         </td>
         <td>
           ${reading.pressure}
+        </td>
+        <td>
+          <a href="/stations/${_station.id}/deletereading/${reading.id}">
+          <button class="red circular ui icon button">
+            <i class="white trash alternate outline icon"></i>
+          </button>
+          </a>
         </td>
       </tr>
     #{/list}

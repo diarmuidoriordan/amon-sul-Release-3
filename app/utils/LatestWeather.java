@@ -13,7 +13,7 @@ public class LatestWeather {
             reading = stations.readings.get(stations.readings.size() - 1);
         }
         else {
-            reading = new Reading(0, 0.0, 0.0, 0, 0);
+            reading = new Reading("DATE UNAVAILABLE", 0, 0.0, 0.0, 0, 0);
         }
         stations.weatherFromCode = Conversions.weatherCodeToString(reading.code);
 
