@@ -22,6 +22,7 @@ public class Station extends Model
   public double tempF;
   public double maxTempC;
   public double minTempC;
+  public String tempTrends;
 
   public int windBft;
   public int windDirection;
@@ -29,10 +30,12 @@ public class Station extends Model
   public double windChill;
   public double maxWindSpeed;
   public double minWindSpeed;
+  public String windTrends;
 
   public int pressureHPA;
   public int maxPressure;
   public int minPressure;
+  public String pressureTrends;
 
   @OneToMany(cascade = CascadeType.ALL)
   public List<Reading> readings = new ArrayList<Reading>();

@@ -44,12 +44,20 @@
           </div>
         </div>
         <div class="item"><br><br><br></div>
-        <div class="ui list">
-          <div class="item">${station.tempC}&deg;C</div>
-          <div class="item">${station.tempF}&deg;F</div>
-          <div class="item"><br></div>
-          <div class="item"><strong><em>Max: </em></strong>${station.maxTempC}&deg;C</div>
-          <div class="item"><strong><em>Min: </em></strong>${station.minTempC}&deg;C</div>
+        <div class="two column centered flex grid">
+          <div class="left floated left aligned column">
+            <div class="ui list">
+              <div class="item">${station.tempC}&deg;C</div>
+              <div class="item">${station.tempF}&deg;F</div>
+              <div class="item"><br></div>
+              <div class="item"><strong><em>Max: </em></strong>${station.maxTempC}&deg;C</div>
+              <div class="item"><strong><em>Min: </em></strong>${station.minTempC}&deg;C</div>
+            </div>
+          </div>
+          <div class="right floated column">
+            <br><br><br><br>
+            <i class = "${station.tempTrends}"></i>
+          </div>
         </div>
       </div>
     </div>
@@ -64,16 +72,24 @@
           </div>
         </div>
         <div class="item"><br><br><br></div>
-        <div class="ui list">
-          <div class="item">${station.windBft} Bft</div>
-          <div class="item">${station.windDirectionOutput}</div>
-          <div class="item"><br></div>
-          <div class="item"><strong><em>Feels like: </em></strong></div>
-          <div class="item">${station.windChill}&deg;C</div>
-          <div class="item"><br></div>
-          <div class="item"><strong><em>Max: </em></strong>${station.maxWindSpeed}Km/h</div>
-          <div class="item"><strong><em>Min: </em></strong>${station.minWindSpeed}Km/h</div>
-          <div class="item"><br></div>
+        <div class="two column centered flex grid">
+          <div class="left floated left aligned column">
+            <div class="ui list">
+              <div class="item">${station.windBft} Bft</div>
+              <div class="item">${station.windDirectionOutput}</div>
+              <div class="item"><br></div>
+              <div class="item"><strong><em>Feels like: </em></strong></div>
+              <div class="item">${station.windChill}&deg;C</div>
+              <div class="item"><br></div>
+              <div class="item"><strong><em>Max: </em></strong>${station.maxWindSpeed}Km/h</div>
+              <div class="item"><strong><em>Min: </em></strong>${station.minWindSpeed}Km/h</div>
+              <div class="item"><br></div>
+            </div>
+          </div>
+          <div class="right floated column">
+            <br><br><br><br>
+            <i class = "${station.windTrends}"></i>
+          </div>
         </div>
       </div>
     </div>
@@ -88,11 +104,20 @@
           </div>
         </div>
         <div class="item"><br><br><br></div>
-        <div class="ui list">
-          <div class="item">${station.pressureHPA} hPa</div>
-          <div class="item"><br></div>
-          <div class="item"><strong><em>Max: </em></strong>${station.maxPressure} hPa</div>
-          <div class="item"><strong><em>Min: </em></strong>${station.minPressure} hPa</div>
+        <div class="two column centered flex grid">
+          <div class="left floated left aligned column">
+            <div class="ui list">
+              <div class="item">${station.pressureHPA} hPa</div>
+              <div class="item"><br></div>
+              <div class="item"><br></div>
+              <div class="item"><strong><em>Max: </em></strong>${station.maxPressure} hPa</div>
+              <div class="item"><strong><em>Min: </em></strong>${station.minPressure} hPa</div>
+            </div>
+          </div>
+          <div class="right floated column">
+            <br><br><br><br>
+            <i class = "${station.pressureTrends}"></i>
+          </div>
         </div>
       </div>
     </div>

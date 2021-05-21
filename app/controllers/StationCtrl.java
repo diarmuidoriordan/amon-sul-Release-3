@@ -6,8 +6,6 @@ import play.Logger;
 import play.mvc.Controller;
 import utils.LatestWeather;
 
-import javax.persistence.EntityManager;
-
 public class StationCtrl extends Controller {
 
     public static void index(Long id) {
