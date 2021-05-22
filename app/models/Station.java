@@ -19,6 +19,7 @@ public class Station extends Model  {
 
   //  Current weather conditions from code
   public String weatherFromCode;
+  public String weatherIcon;
 
   //  Temperature info. & trends variables
   //  from readings & calculations

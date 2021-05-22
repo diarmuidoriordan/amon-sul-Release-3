@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e49662f5-119e-4656-93e5-c18cb3ba117d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/amon-sul-Release-3.iws" beforeDir="false" afterPath="$PROJECT_DIR$/amon-sul-Release-3.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Station.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Station.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/utils/Conversions.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/Conversions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/utils/LatestWeather.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/LatestWeather.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tags/addreading.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/addreading.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tags/addstation.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/addstation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tags/mainpanel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tags/latestreadings.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/latestreadings.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +97,7 @@
       <workItem from="1621544826975" duration="110000" />
       <workItem from="1621545077143" duration="21053000" />
       <workItem from="1621671900641" duration="17633000" />
+      <workItem from="1621691699956" duration="1863000" />
     </task>
     <servers />
   </component>
@@ -113,5 +114,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

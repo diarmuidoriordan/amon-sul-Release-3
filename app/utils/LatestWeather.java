@@ -32,6 +32,7 @@ public class LatestWeather {
             stations.pressureTrends = Trends.getPressureTrends(stations);
 
             stations.weatherFromCode = Conversions.weatherCodeToString(reading.code);
+            stations.weatherIcon = Conversions.weatherIconFromCode(reading.code);
         }
         else {
             stations.tempC = 0;
@@ -55,6 +56,7 @@ public class LatestWeather {
             stations.pressureTrends = "";
 
             stations.weatherFromCode = "UNAVAILABLE";
+            stations.weatherIcon = "";
         }
 
         return stations;
