@@ -48,6 +48,7 @@ User(u1):
   lastName: simpson
   email: homer@simpson.com
   password: secret
+  profilePic: /public/images/homer-simpson.jpg
   stations:
     - s1
     - s2

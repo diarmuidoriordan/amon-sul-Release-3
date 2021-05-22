@@ -1,0 +1,33 @@
+#{list items:_user, as:'user'}
+  <section class="ui raised segment">
+    <div class="ui two column grid basic middle aligned segment">
+      <div class="column">
+        <img class="ui rounded image" src="${user.profilePic}">
+      </div>
+      <div class="column">
+        <form class="ui green stacked segment action form" action="/edituserprofile/${user.id}" method="GET">
+          <h3 class="ui header">Personal Details</h3>
+          <div class="two fields">
+            <div class="field">
+              <label>First Name</label>
+              <input value="${user.firstName}" readonly>
+            </div>
+            <div class="field">
+              <label>Last Name</label>
+              <input value="${user.lastName}" readonly>
+            </div>
+          </div>
+          <div class="field">
+            <label>Email</label>
+            <input value="${user.email}" readonly>
+          </div>
+          <div class="field">
+            <label>Password</label>
+            <input value="${user.obfuscatedPassword}" readonly>
+          </div>
+          <button class="ui circular green submit button">Edit My Details</button>
+        </form>
+      </div>
+    </div>
+  </section>
+#{/list}

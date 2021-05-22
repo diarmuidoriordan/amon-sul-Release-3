@@ -3,6 +3,7 @@ package controllers;
 import models.User;
 import play.Logger;
 import play.mvc.Controller;
+import utils.UserDetails;
 
 public class Account extends Controller {
 
@@ -17,7 +18,7 @@ public class Account extends Controller {
     public static void register(String firstname, String lastname, String email, String password) {
 
         Logger.info("Registering new user " + email);
-        User user = new User(firstname, lastname, email, password);
+        User user = new User(firstname, lastname, email, password, "/public/images/default-profile-pic.jpg");
         user.save();
         authenticate(email, password);
     }

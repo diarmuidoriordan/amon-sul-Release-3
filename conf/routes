@@ -11,6 +11,9 @@ GET     /authenticate                               Account.authenticate
 POST    /authenticate                               Account.authenticate
 GET     /logout                                     Account.logout
 GET     /dashboard                                  Dashboard.index
+GET     /profile                                    ProfileCtrl.index
+GET     /edituserprofile/{userid}                   ProfileCtrl.editUserInfo
+POST    /saveuserprofile/{userid}                   ProfileCtrl.saveUserInfo
 GET     /about                                      About.index
 GET     /stations/{id}                              StationCtrl.index
 POST    /dashboard/addstation                       StationCtrl.addStation
