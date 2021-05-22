@@ -11,17 +11,17 @@ public class LatestWeather {
 
             Reading reading = stations.readings.get(stations.readings.size() - 1);
 
-            stations.tempC = reading.pressure;
-            stations.tempF = Conversions.tempToF(reading.pressure);
+            stations.tempC = reading.temperature;
+            stations.tempF = Conversions.tempToF(reading.temperature);
             stations.maxTempC = MaxMinValues.getMaxTempC(stations);
             stations.minTempC = MaxMinValues.getMinTempC(stations);
             stations.tempTrends = Trends.getTempTrends(stations);
 
-            stations.windBft = Conversions.windToBft(reading.pressure);
+            stations.windBft = Conversions.windToBft(reading.windSpeed);
             stations.windDirection = reading.windDirection;
             stations.windDirectionOutput = Conversions.windDirectionToString(reading.windDirection);
 
-            stations.windChill = Conversions.windChillCalc(reading.pressure, reading.pressure);
+            stations.windChill = Conversions.windChillCalc(reading.windSpeed, reading.temperature);
             stations.maxWindSpeed = MaxMinValues.getMaxWindSpeed(stations);
             stations.minWindSpeed = MaxMinValues.getMinWindSpeed(stations);
             stations.windTrends = Trends.getWindTrends(stations);

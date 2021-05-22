@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e49662f5-119e-4656-93e5-c18cb3ba117d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controllers/ProfileCtrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/utils/UserDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/editprofile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/tags/viewprofile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/amon-sul-Release-3.iws" beforeDir="false" afterPath="$PROJECT_DIR$/amon-sul-Release-3.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/Station.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Station.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/utils/LatestWeather.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/LatestWeather.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/data.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/data.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/routes" beforeDir="false" afterPath="$PROJECT_DIR$/conf/routes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tags/addreading.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/addreading.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tags/addstation.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/addstation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tags/mainpanel.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,21 +54,6 @@
       <recent name="$PROJECT_DIR$/app/views" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -118,7 +96,7 @@
       <workItem from="1621544676589" duration="65000" />
       <workItem from="1621544826975" duration="110000" />
       <workItem from="1621545077143" duration="21053000" />
-      <workItem from="1621671900641" duration="13518000" />
+      <workItem from="1621671900641" duration="17633000" />
     </task>
     <servers />
   </component>
