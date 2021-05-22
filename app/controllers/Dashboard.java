@@ -1,3 +1,6 @@
+/**
+ * @author Dermot O'Riordan
+ */
 package controllers;
 
 import models.Station;
@@ -8,8 +11,15 @@ import utils.LatestWeather;
 
 import java.util.List;
 
+/**
+ * This class generates and renders the Dashboard with the list of the user's Stations.
+ * @author Dermot O'Riordan
+ */
 public class Dashboard extends Controller
 {
+  /**
+   * Renders the Dashboard with the list of the user's Stations.
+   */
   public static void index() {
 
     User user = Account.getLoggedInUser();

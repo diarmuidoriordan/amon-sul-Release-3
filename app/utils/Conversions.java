@@ -1,7 +1,21 @@
+/**
+ * @author Dermot O'Riordan
+ */
 package utils;
 
+/**
+ * This class contains a number of static methods to calculate new information
+ * from a Reading, converting values to other formats or standards.
+ * @author Dermot O'Riordan
+ */
 public class Conversions {
 
+    /**
+     * Returns a String with a in words of the latest weather conditions
+     * formatted to be displayed on the Latest Readings summary cards.
+     * @param code The numerical code for the latest weather conditions.
+     * @return A String with a description in words of the latest weather conditions.
+     */
     public static String weatherCodeToString(int code) {
         switch(code) {
             case 100:
@@ -25,12 +39,24 @@ public class Conversions {
         }
     }
 
+    /**
+     * Converts the current temperature reading from Celcius to Fahrenheit.
+     * @param temperature The temperature in degrees Celcius.
+     * @return The temperature in degrees Fahrenheit.
+     */
     public static double tempToF(double temperature) {
         double tempF = (((temperature * 9) / 5) +32);
         tempF = (Math.round(tempF * 10.0) / 10.0);
         return tempF;
     }
 
+    /**
+     * Calculates the wind chill factor ("feels like") using the
+     * current wind speed and temperature readings.
+     * @param windSpeed The speed of the wind in Km/h.
+     * @param temperature The current air temperature in degrees Celcius.
+     * @return The current wind chill factor in degrees Celcius.
+     */
     public static double windChillCalc(double windSpeed, double temperature) {
         double windChill = (13.12 + (0.6215 * temperature)) - (11.37 * (Math.pow(windSpeed, 0.16)))
                 + ((0.3965 * temperature) * (Math.pow(windSpeed, 0.16)));
@@ -38,6 +64,12 @@ public class Conversions {
         return windChill;
     }
 
+    /**
+     * This method accepts a value for the speed of the wind in Km/h
+     * (double) and returns an int with the speed in the Beaufort Scale (Bft).
+     * @param windSpeed The speed at which the wind is blowing.
+     * @return The wind speed on the Beaufort Scale (Bft).
+     */
     public static int windToBft(double windSpeed) {
 
         int windBft;
@@ -82,6 +114,12 @@ public class Conversions {
         return windBft;
     }
 
+    /**
+     * This method accepts a value for the direction of the wind in degrees
+     * and returns a String of words describing the wind direction.
+     * @param windDirection The direction in degrees (int, 0-360) the wind is blowing.
+     * @return A String with the wind direction in words.
+     */
     public static String windDirectionToString(int windDirection) {
         if (((windDirection >= 348.75) && (windDirection <= 360))
                 || ((windDirection >= 0) && (windDirection < 11.25))) {
@@ -137,6 +175,12 @@ public class Conversions {
         }
     }
 
+    /**
+     * Returns a String with the Fomatic UI code to generate
+     * an appropriate icon for the Latest Readings summary cards.
+     * @param code The numerical code for the latest weather conditions.
+     * @return A String with the correct Fomatic syntax to generate a weather icon.
+     */
     public static String weatherIconFromCode(int code) {
         switch(code) {
             case 100:

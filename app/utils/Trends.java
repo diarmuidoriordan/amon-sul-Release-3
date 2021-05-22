@@ -1,10 +1,32 @@
+/**
+ * A class that contains static methods to produce the
+ * appropriate Fomatic UI semantic code to generate an
+ * UP or DOWN arrow icon to indicate the trend for that
+ * element.
+ * @author Dermot O'Riordan
+ */
 package utils;
 
 import models.Reading;
 import models.Station;
 
+/**
+ * A class to contain all of the methods used to analyse recent readings and
+ * see if their values have been RISING or FALLING.
+ * @author Dermot O'Riordan
+ */
 public class Trends {
 
+    /**
+     * This method accepts a Station object as a parameter and returns a String
+     * with the Fomatic UI semantic code to generate an appropriate arrow icon
+     * to indicate if the most recent 3 temperature readings were either RISING
+     * or FALLING.
+     *
+     * If neither, then no icon is displayed on the Latest Weather temperature card.
+     * @param stations The station whose readings are to be analysed.
+     * @return A String with the Fomatic UI semantic code to generate an appropriate UP or DOWN arrow icon.
+     */
     public static String getTempTrends(Station stations) {
         String tempTrends = "";
 
@@ -25,6 +47,16 @@ public class Trends {
         return tempTrends;
     }
 
+    /**
+     * This method accepts a Station object as a parameter and returns a String
+     * with the Fomatic UI semantic code to generate an appropriate arrow icon
+     * to indicate if the most recent 3 wind speed readings were either RISING
+     * or FALLING.
+     *
+     * If neither, then no icon is displayed on the Latest Weather temperature card.
+     * @param stations The station whose wind speed readings are to be analysed.
+     * @return A String with the Fomatic UI semantic code to generate an appropriate UP or DOWN arrow icon.
+     */
     public static String getWindTrends(Station stations) {
         String windTrends = "";
 
@@ -45,9 +77,18 @@ public class Trends {
         return windTrends;
     }
 
+    /**
+     * This method accepts a Station object as a parameter and returns a String
+     * with the Fomatic UI semantic code to generate an appropriate arrow icon
+     * to indicate if the most recent 3 pressure readings were either RISING
+     * or FALLING.
+     *
+     * If neither, then no icon is displayed on the Latest Weather pressure card.
+     * @param stations The station whose pressure readings are to be analysed.
+     * @return A String with the Fomatic UI semantic code to generate an appropriate UP or DOWN arrow icon.
+     */
     public static String getPressureTrends(Station stations) {
         String pressureTrends = "";
-
 
         if (stations.readings.size() >= 3) {
             Reading primary = stations.readings.get(stations.readings.size() - 1);

@@ -1,10 +1,35 @@
+/**
+ * @author Dermot O'Riordan
+ */
 package utils;
 
 import models.Reading;
 import models.Station;
 
+/**
+ * This class contains a single static method to retrieve the most
+ * recent Reading for a station and calculate and append additional
+ * values of weather reporting for the Latest Weather summary cards.
+ * @author Dermot O'Riordan
+ */
 public class LatestWeather {
 
+    /**
+     * This method calculates the most recent readings to display on the latest
+     * weather cards in the Station summary panel.
+     *
+     * To calculate all fields accurately, this method draws on other static
+     * methods in other classes in the utils package:
+     *
+     * (1) Conversions: A list of appropriate calculations and switches.
+     *
+     * (2) MaxMinValues: A class that contains methods to extract the maximum
+     * or minimum values for a list of readings.
+     *
+     * (3) Trends: A class to hold methods for analysing recent weather trends.
+     * @param stations Takes in the Station object to extract the readings from.
+     * @return The Station is returned with all instance variable fields initialised.
+     */
     public static Station getLatestReadings(Station stations) {
 
         if (stations.readings.size() > 0) {

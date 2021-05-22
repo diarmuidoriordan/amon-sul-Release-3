@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e49662f5-119e-4656-93e5-c18cb3ba117d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/amon-sul-Release-3.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/amon-sul-Release-3.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/amon-sul-Release-3.iws" beforeDir="false" afterPath="$PROJECT_DIR$/amon-sul-Release-3.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/About.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/About.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Dashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/ProfileCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/ProfileCtrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/ReadingCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/ReadingCtrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/StationCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/StationCtrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Reading.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Reading.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/Station.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Station.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/utils/Conversions.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/Conversions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/utils/LatestWeather.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/LatestWeather.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tags/latestreadings.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/latestreadings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/utils/MaxMinValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/MaxMinValues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/utils/Trends.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/Trends.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/utils/UserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/UserDetails.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +66,19 @@
       <recent name="$PROJECT_DIR$/app/views" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -97,7 +122,8 @@
       <workItem from="1621544826975" duration="110000" />
       <workItem from="1621545077143" duration="21053000" />
       <workItem from="1621671900641" duration="17633000" />
-      <workItem from="1621691699956" duration="1863000" />
+      <workItem from="1621691699956" duration="2326000" />
+      <workItem from="1621700793913" duration="13778000" />
     </task>
     <servers />
   </component>
