@@ -9,6 +9,7 @@ import play.Logger;
 import play.mvc.Controller;
 import utils.LatestWeather;
 
+import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -24,6 +25,8 @@ public class Dashboard extends Controller
 
     User user = Account.getLoggedInUser();
     List<Station> stations = user.stations;
+
+    stations.sort(Comparator.comparing(Station::getName, String.CASE_INSENSITIVE_ORDER));
 
     for (int i = 0; i < stations.size(); i++) {
       LatestWeather.getLatestReadings(stations.get(i));

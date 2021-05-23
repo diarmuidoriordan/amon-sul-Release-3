@@ -144,4 +144,12 @@ public class Station extends Model  {
     this.latitude = latitude;
     this.longitude = longitude;
   }
+
+  /**
+   * This method returns the name of the Station. Used to list the Stations alphabetically.
+   * @return Returns the name of the Station.
+   */
+  public String getName() {
+    return this.name;
+  }
 }
