@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * This class creates and instance of the User object.
+ * This class creates an instance of the User object.
  *
  * It contains a constructor that takes in a value for each
  * of the user's personal details as its parameters, and

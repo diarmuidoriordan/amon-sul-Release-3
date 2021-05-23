@@ -9,7 +9,7 @@ import java.util.*;
 import models.*;
 
 /**
- * The class that creates and renders the About web page.
+ * This class creates and renders the About web page.
  * @author Dermot O'Riordan
  */
 public class About extends Controller

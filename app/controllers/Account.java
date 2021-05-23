@@ -9,7 +9,7 @@ import play.mvc.Controller;
 import utils.UserDetails;
 
 /**
- * The Class that manages the user accounts for the program.
+ * This class creates and manages the User accounts for the program.
  *
  * This class contains 6 static methods that can be accessed by other
  * parts of this program to manage user accounts as necessary.
