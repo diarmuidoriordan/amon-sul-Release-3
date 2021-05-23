@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e49662f5-119e-4656-93e5-c18cb3ba117d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/amon-sul-Release-3.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/amon-sul-Release-3.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/tags/homeview.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/amon-sul-Release-3.iws" beforeDir="false" afterPath="$PROJECT_DIR$/amon-sul-Release-3.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/About.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/About.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Dashboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/ProfileCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/ProfileCtrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/ReadingCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/ReadingCtrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/StationCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/StationCtrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/Reading.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Reading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/Station.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Station.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/utils/Conversions.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/Conversions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/utils/LatestWeather.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/LatestWeather.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/utils/MaxMinValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/MaxMinValues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/utils/Trends.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/Trends.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/utils/UserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/UserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/start.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/start.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +111,9 @@
       <workItem from="1621545077143" duration="21053000" />
       <workItem from="1621671900641" duration="17633000" />
       <workItem from="1621691699956" duration="2326000" />
-      <workItem from="1621700793913" duration="13778000" />
+      <workItem from="1621700793913" duration="13923000" />
+      <workItem from="1621757007853" duration="1338000" />
+      <workItem from="1621763417330" duration="2684000" />
     </task>
     <servers />
   </component>
