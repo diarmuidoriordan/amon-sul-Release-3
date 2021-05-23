@@ -1,32 +1,62 @@
 # amon-sul-Release-3
-Version 5 of the WeatherTop viewing app
+###_Version 5 of the WeatherTop viewing app_
 
 ## New Features:
 
-- [x] User Personal Details:
-    - [x] Users can view their info.
-    - [x] Users can edit their info.
+- [x] **User Personal Details**:
+    - [x] Users can view their personal info.
+    - [x] Users can edit their personal info.
     - [x] Users can add a profile picture by linking to it.
+    - [x] Default user profile pic added on registration.
+  
 
-- [x] Location of Station:
-    - [x] Latitude
-    - [x] Longitude
+- [x] **Date and Time stamps** added for Readings:
+    - [x] Date in yyyy/MM/dd format.
+    - [x] time in HH:mm:ss format.
+    - [x] All new readings created with date and time stamp.
+  
 
-- [x] Current Weather Icon:
-    -[x] Context Sensitive
+- [x] Dashboard now shows **"All Stations Summary"**:
+    -[x] Every Station on the Dashboard now shows latest weather cards.
 
-- [x] Maximum/Minimum Readings for:
-    - [x] Temperature
-    - [x] Wind Speed
-    - [x] Pressure
+
+- [x] **Trends** analyses the three most recent Readings from a station.
+    - [x] Trends can show if these Readings are:
+        - [x] Rising
+        - [x] Falling
+    - [x] Trends are now available for:
+        - [x] Temperature
+        - [x] Wind Speed
+        - [x] Pressure
+    - [x] If the Readings are rising or falling, an appropriate arrow displays
+    to indicate this.
+    - [x] Otherwise, no arrow is displayed on the latest readings cards.
+
+
+- [x] User can now **DELETE** the following data:
+    - [x] Readings from a Station.
+    - [x] Stations from their Dashboard.
+
+
+-[x] **DEPLOYED TO THE CLOUD**
 
 ## Description:
 
-In this version the user can register to create an account,
-sign in and view their weather stations. The user can log out when finished.
+In this version the User update the personal details on their account. Profile pictures have been added,
+and these can be changed by supplying a URL to their image on the web.
 
-The user can then create as many new Stations as they want,
-and populate each station with as many readings as they want.
+Each Reading now displays a Date and Time stamp showing to the exact second when it was created.
+
+The User can now delete individual Readings from a Station, or delete and entire Station and 
+its Readings from their account.
+
+The list of Stations on the User's Dashboard now shows the latest weather and trend cards
+as a Station Summary.
+
+Trends have been added to the Station Summary. By analyising the most recent 3 Readings
+from a Station, the Station Summary will show an UP arrow if the values for these most recent
+three readings are increasing, or a DOWN arrow if they are falling. In the event that they are
+neither rising nor falling, no arrow will be displayed.
 
 ## How to Run:
 
