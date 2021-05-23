@@ -22,6 +22,10 @@ public class Bootstrap extends Job{
      * the appropriate fields on the website with data.
      */
     public void doJob() {
-        Fixtures.loadModels("data.yml");
+
+        if (User.count() == 0) {
+
+            Fixtures.loadModels("data.yml");
+        }
     }
 }
